@@ -1,0 +1,24 @@
+{
+  "name": "empty-react-project",
+  "version": "1.0.0",
+  "description": "An empty react project, include the base configuration files to quickly start a react project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixAnn/empty-react-project.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "hooks"
+  ],
+  "author": "Felix An",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixAnn/empty-react-project/issues"
+  },
+  "homepage": "https://github.com/FelixAnn/empty-react-project#readme"
+}
