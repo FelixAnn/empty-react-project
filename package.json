@@ -20,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/FelixAnn/empty-react-project/issues"
   },
-  "homepage": "https://github.com/FelixAnn/empty-react-project#readme"
+  "homepage": "https://github.com/FelixAnn/empty-react-project#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.51.1"
+  }
 }
