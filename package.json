@@ -4,7 +4,17 @@
   "description": "An empty react project, include the base configuration files to quickly start a react project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "src/**/*.{styl,css}": [
+      "prettier --write"
+    ]
   },
   "repository": {
     "type": "git",
@@ -33,9 +43,12 @@
     "@typescript-eslint/parser": "^5.4.0",
     "babel-loader": "^8.2.2",
     "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.0",
-    "husky": "^7.0.4",
+    "husky": "^7.0.0",
     "lint-staged": "^12.0.2",
+    "prettier": "^2.4.1",
     "stylus": "^0.55.0",
     "webpack": "^5.51.1"
   }
