@@ -1,3 +1,3 @@
 import React, { ReactDOM } from "react";
 
-ReactDOM.render(<div>123</div>, document.getElementById("app"));
+ReactDOM.render(<div>122</div>, document.getElementById("app"));
